@@ -5,3 +5,4 @@ ADD docker-java-servlet-main/com.src.war /usr/local/tomcat/webapps/
 
 EXPOSE 8080
 CMD ["catalina.sh", "run"]
+cmd sudo tail -f / opt / tomcat / log / catalina.out
