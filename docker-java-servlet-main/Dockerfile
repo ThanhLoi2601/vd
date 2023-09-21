@@ -1,4 +1,4 @@
-FROM tomcat:9.0.80-jdk21-openjdk-slim-bullseye
+FROM tomcat:jdk21-openjdk-slim
 RUN rm -rf /usr/local/tomcat/webapps/ROOT
 RUN rm -rf /usr/local/tomcat/webapps/examples
 ADD docker-java-servlet-main/com.src.war /usr/local/tomcat/webapps/
